@@ -81,7 +81,6 @@ export default {
     left: 100% !important;
     margin-left: 10px !important;
     top: 0px !important;
-    transform: rotate(0deg) !important;
   }
 
   .collapse-header {

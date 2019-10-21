@@ -7,11 +7,7 @@
         <li v-for="(detail, index) in details" :key="index">{{ detail }}</li>
       </ul>
     </div>
-    <div
-      class="select-box"
-      :class="{ selected: checkSelected() }"
-      @click="handleInput"
-    >
+    <div class="select-box" :class="{ selected: checkSelected() }" @click="handleInput">
       <input
         :id="id"
         name="radio-button"
@@ -76,10 +72,10 @@ export default {
   justify-content: space-between;
   border: 1px solid #c9e3f9;
   background: white;
-  /* min-height: 100%; */
   margin: 10px;
   padding: 20px 10px;
   max-width: 300px;
+
   /* height: 580px; */
   input[type="radio"]:checked:after {
     width: 15px;
@@ -113,7 +109,7 @@ export default {
     margin-left: -1em;
   }
   li {
-    margin: 15px 20px;
+    margin: 10px 20px;
   }
 }
 .select-box {

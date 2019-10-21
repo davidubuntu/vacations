@@ -14,17 +14,11 @@
           <div slot="collapse-body">
             <h5 class="inlcude">Incluye</h5>
             <div class="list-container">
-              <ul
-                class="list"
-                v-for="(condition, index) in conditions"
-                :key="index"
-              >
+              <ul class="list" v-for="(condition, index) in conditions" :key="index">
                 <li class="conditions">{{ condition }}</li>
               </ul>
             </div>
-            <h5 class="info-text">
-              Valores no acumulables a otras promociones similares
-            </h5>
+            <h5 class="info-text">Valores no acumulables a otras promociones similares</h5>
           </div>
         </Collapse>
       </div>
@@ -123,6 +117,7 @@ export default {
   color: #898b8e;
   font-size: 15px;
   font-family: "Roboto-Regular";
+  margin: 0px 2rem;
 }
 .inlcude {
   color: #898b8e;

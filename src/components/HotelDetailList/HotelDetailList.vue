@@ -1,10 +1,6 @@
 <template>
   <div>
-    <Collapse
-      v-for="exclusive in exclusives"
-      :key="exclusive.id"
-      :selected="false"
-    >
+    <Collapse v-for="exclusive in exclusives" :key="exclusive.id" :selected="false">
       <div slot="collapse-header" class="title-panel">
         <span class="title">{{ exclusive.name }}</span>
         <span class="subtitle">Opcional</span>
