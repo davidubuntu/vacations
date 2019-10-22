@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ selected: checkSelected() }" class="service-box">
+  <div :class="{ 'selected-box': checkSelected() }" class="service-box">
     <div>
       <h1 class="name">{{ name }}</h1>
       <hr class="line" />
@@ -7,7 +7,11 @@
         <li v-for="(detail, index) in details" :key="index">{{ detail }}</li>
       </ul>
     </div>
-    <div class="select-box" :class="{ selected: checkSelected() }" @click="handleInput">
+    <div
+      class="select-box"
+      :class="{ 'selected-box': checkSelected() }"
+      @click="handleInput"
+    >
       <input
         :id="id"
         name="radio-button"
@@ -120,14 +124,16 @@ export default {
   align-items: center;
   color: #033970;
 }
-.selected {
+.selected-box {
   border: 1px solid #326c96;
 }
+
 .reg {
   font-family: "Roboto-Regular";
   margin: 0px 35px;
   font-size: 16px;
 }
+
 .line {
   border: 1px solid #e5f2fd;
   margin: 20px auto;

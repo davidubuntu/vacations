@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app">
     <router-view />
     <Header></Header>
   </div>
@@ -8,16 +8,15 @@
 <script>
 import Header from "./components/Header/Header";
 export default {
-  name: "app",
+  name: "App",
   components: {
     Header: Header
   }
 };
 </script>
 
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+<style lang="scss">
+.app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

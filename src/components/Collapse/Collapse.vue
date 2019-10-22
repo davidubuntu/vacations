@@ -1,8 +1,11 @@
 <template>
-  <div class="collapse collapse-item" :class="{ 'is-active': active, little: isLittle }">
+  <div
+    class="collapse collapse-item"
+    :class="{ 'is-active': active, 'little-collapse': isLittle }"
+  >
     <div
       class="collapse-header touchable"
-      :class="{ little: isLittle }"
+      :class="{ 'little-collapse': isLittle }"
       role="tab"
       :aria-expanded="active ? 'true' : 'false'"
       @click.prevent="toggle"
@@ -59,20 +62,21 @@ export default {
 };
 </script>
 <style lang="scss">
+@import "@/styles/global.scss";
 .collapse {
   margin-bottom: 30px;
-  background: #ffffff;
+  background: $bg-white;
   border: 1px solid #dee1e8;
 }
 .collapse .collapse-header {
   display: flex;
   align-items: center;
   padding: 20px 20px 20px 40px;
-  background: #ffffff;
+  background: $bg-white;
   border-radius: 3px;
   position: relative;
 }
-.little {
+.little-collapse {
   border: none;
   padding: 0px !important;
   margin-bottom: 0px;

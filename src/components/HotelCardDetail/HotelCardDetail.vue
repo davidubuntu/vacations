@@ -14,11 +14,17 @@
           <div slot="collapse-body">
             <h5 class="inlcude">Incluye</h5>
             <div class="list-container">
-              <ul class="list" v-for="(condition, index) in conditions" :key="index">
+              <ul
+                class="list"
+                v-for="(condition, index) in conditions"
+                :key="index"
+              >
                 <li class="conditions">{{ condition }}</li>
               </ul>
             </div>
-            <h5 class="info-text">Valores no acumulables a otras promociones similares</h5>
+            <h5 class="info-text">
+              Valores no acumulables a otras promociones similares
+            </h5>
           </div>
         </Collapse>
       </div>
@@ -58,11 +64,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+@import "@/styles/global.scss";
 .container {
   height: 100%;
   width: 100%;
   display: flex;
-  background: #ffffff;
+  background: $bg-white;
   border: 1px solid #dee1e8;
   margin: 20px 0px;
 }
@@ -79,7 +86,7 @@ export default {
   font-family: "Roboto-Slab-Bold";
 }
 .description {
-  color: #898b8e;
+  color: $text-decxription;
   font-size: 15px;
   font-family: "Roboto-Regular";
   margin: 10px 0px;
@@ -114,13 +121,13 @@ export default {
   display: flex;
 }
 .conditions {
-  color: #898b8e;
+  color: $text-decxription;
   font-size: 15px;
   font-family: "Roboto-Regular";
   margin: 0px 2rem;
 }
 .inlcude {
-  color: #898b8e;
+  color: $text-decxription;
   font-size: 16px;
   font-weight: 700;
 }

@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <img class="icon-vacation" src="../../assets/icons/cocktail.png" alt />
     <h1 class="title">Cocktail Vacations</h1>
     <h6>Developed by David Diez</h6>
   </div>
@@ -21,5 +22,8 @@ export default {
 .title {
   font-size: 50px;
   font-family: "Roboto-Slab-Regular";
+}
+.icon-vacation {
+  height: 50px;
 }
 </style>

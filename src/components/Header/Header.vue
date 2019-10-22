@@ -34,6 +34,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+@import "@/styles/global.scss";
 .spacing {
   margin-right: 10px;
 }
@@ -45,7 +46,7 @@ export default {
   top: 0px;
   height: 40px;
   width: 100vw;
-  background: #14487a;
+  background: $bg-header-color;
 }
 a {
   font-size: 18px;

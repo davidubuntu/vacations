@@ -50,8 +50,7 @@ export const exclusives = [
         title: "Olvídese de la rutina",
         description:
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium velit eius reiciendis consequatur excepturi provident molestiae accusamus a laboriosam? Velit ab assumenda pariatur? Nobis obcaecati provident beatae facilis rem vel.",
-        image:
-          "http://www.gannett-cdn.com/media/2019/03/28/USATODAY/usatsports/hammock-on-beach-vacation-philippines.jpg",
+        image: "./images/img1.jpg",
         conditions: [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente mollitia quod rerum velit aliquid ab facilis aliquam consequuntur ad, enim culpa laudantium in ipsum veniam quae necessitatibus, quasi recusandae",
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente mollitia quod rerum velit aliquid ab facilis aliquam consequuntur ad, enim culpa laudantium in ipsum veniam quae necessitatibus, quasi recusandae",
@@ -63,8 +62,7 @@ export const exclusives = [
         title: "Experiencias y programas SPA con agua",
         description:
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium velit eius reiciendis consequatur excepturi provident molestiae accusamus a laboriosam? Velit ab assumenda pariatur? Nobis obcaecati provident beatae facilis rem vel. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium velit eius reiciendis consequatur excepturi provident molestiae accusamus a laboriosam? Velit ab assumenda pariatur? Nobis obcaecati provident beatae facilis rem vel.",
-        image:
-          "https://img.rezdy.com/PRODUCT_IMAGE/103619/c640a103fe7347c3ac9adc030adb1a0e7150c610_b35d_11e5_ae8d_77ee6d7626b9__J4K5290_resize_lg.jpg",
+        image: "./images/img2.jpg",
         conditions: [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente mollitia quod rerum velit aliquid ab facilis aliquam consequuntur ad, enim culpa laudantium in ipsum veniam quae necessitatibus, quasi recusandae",
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente mollitia quod rerum velit aliquid ab facilis aliquam consequuntur ad, enim culpa laudantium in ipsum veniam quae necessitatibus, quasi recusandae",
@@ -82,8 +80,7 @@ export const exclusives = [
         title: "Desayuno con vistas al mar",
         description:
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium velit eius reiciendis consequatur excepturi provident molestiae accusamus a laboriosam? Velit ab assumenda pariatur? Nobis obcaecati provident beatae facilis rem vel",
-        image:
-          "http://cdn.cnn.com/cnnnext/dam/assets/170303105615-qi-palawan-remote-resorts-philippines.jpg",
+        image: "./images/img3.jpg",
         conditions: [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente mollitia quod rerum velit aliquid ab facilis aliquam consequuntur ad, enim culpa laudantium in ipsum veniam quae necessitatibus, quasi recusandae",
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente mollitia quod rerum velit aliquid ab facilis aliquam consequuntur ad, enim culpa laudantium in ipsum veniam quae necessitatibus, quasi recusandae",
