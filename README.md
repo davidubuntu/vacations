@@ -1,8 +1,8 @@
 # Cocktail Vacationn WEB APP
 
 Simple web application that shows a selected hotel service options . User can select a prefered service option.
-User can click on the service and the cards will be selected.
-User also can see an exclusive tab cards options.
+User can click on the service and the card will be selected.
+User also can see an exclusive tab options.
 
 ## Technologies and Tools
 
@@ -53,12 +53,6 @@ npm run dev
 
 ```
 npm run build
-```
-
-### Run your tests
-
-```
-npm run test
 ```
 
 ### Lints and fixes files
